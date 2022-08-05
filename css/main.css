@@ -31,5 +31,7 @@
 }
 .footer .footer-params {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(0, 13, 255);
+  color: salmon;
+  line-height: 2px;
+  font-weight: 200;
 }/*# sourceMappingURL=main.css.map */

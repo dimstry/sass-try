@@ -1,4 +1,4 @@
-// Variabel
+// Variabel global
 $myColor : rgb(255, 0, 187);
 $mySize : 2em;
 $myBackground : rgb(67, 250, 0) ;
@@ -50,6 +50,9 @@ $primaryColor : rgb(0, 13, 255);
 
 
 .footer {
+    $mySize : 2em;
+    $myBackground : rgb(100, 0, 250) ;
+    $primaryColor: salmon; // variabel local
     & &-heading {
         font-size: 2em;
     }
@@ -57,5 +60,7 @@ $primaryColor : rgb(0, 13, 255);
     & &-params {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: $primaryColor;
+        line-height: 2px;
+        font-weight: 200;
     }
 }
