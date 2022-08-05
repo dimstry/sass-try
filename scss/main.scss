@@ -1,8 +1,13 @@
+// Variabel
+$myColor : rgb(255, 0, 187);
+$mySize : 2em;
+$myColor : rgb(255, 0, 187);
+
 .main {
     background-color: aqua;
 
     .main-heading{
-        font-size: 2em;
+        font-size: $mySize;
     }
 
     .main-params {
@@ -21,7 +26,7 @@
 
 .main {
     .container & {
-        background-color: rgb(255, 0, 153);
+        background-color: $myColor;
     }
 
     .main-heading {
