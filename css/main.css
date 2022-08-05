@@ -28,6 +28,9 @@
 
 .footer .footer-heading {
   font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: salmon;
 }
 .footer .footer-params {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

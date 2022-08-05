@@ -53,8 +53,12 @@ $primaryColor : rgb(0, 13, 255);
     $mySize : 2em;
     $myBackground : rgb(100, 0, 250) ;
     $primaryColor: salmon; // variabel local
+    $secondColor: rgb(254, 6, 14) ;
     & &-heading {
         font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        color:$primaryColor ;
     }
 
     & &-params {
