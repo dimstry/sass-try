@@ -1,0 +1,42 @@
+.main {
+    background-color: aqua;
+
+    .main-heading{
+        font-size: 2em;
+    }
+
+    .main-params {
+        font-size: 1em;
+    }
+}
+
+.main, footer {
+    h1, p {
+        letter-spacing: 1px;
+    }
+}
+
+// & 
+// parentt  selector
+
+.main {
+    .container & {
+        background-color: rgb(80, 191, 255);
+    }
+
+    .main-heading {
+        font-size: 2 em;
+    }
+}
+
+
+.main {
+    & &-heading {
+        font-size: 2em;
+    }
+
+    & &-params {
+        color: aqua;
+    }
+
+}
