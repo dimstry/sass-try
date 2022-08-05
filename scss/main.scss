@@ -21,7 +21,7 @@
 
 .main {
     .container & {
-        background-color: rgb(80, 191, 255);
+        background-color: rgb(255, 0, 153);
     }
 
     .main-heading {
@@ -39,4 +39,17 @@
         color: aqua;
     }
 
+}
+
+
+
+.footer {
+    & &-heading {
+        font-size: 2em;
+    }
+
+    & &-params {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aqua;
+    }
 }

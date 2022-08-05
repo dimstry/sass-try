@@ -1,6 +1,35 @@
+.main {
+  background-color: aqua;
+}
 .main .main-heading {
   font-size: 2em;
 }
 .main .main-params {
+  font-size: 1em;
+}
+
+.main h1, .main p, footer h1, footer p {
+  letter-spacing: 1px;
+}
+
+.container .main {
+  background-color: rgb(255, 0, 153);
+}
+.main .main-heading {
+  font-size: 2 em;
+}
+
+.main .main-heading {
+  font-size: 2em;
+}
+.main .main-params {
+  color: aqua;
+}
+
+.footer .footer-heading {
+  font-size: 2em;
+}
+.footer .footer-params {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: aqua;
 }/*# sourceMappingURL=main.css.map */
