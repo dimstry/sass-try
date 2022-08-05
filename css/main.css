@@ -1,5 +1,5 @@
 .main {
-  background-color: aqua;
+  background-color: rgb(67, 250, 0);
 }
 .main .main-heading {
   font-size: 2em;
@@ -31,5 +31,5 @@
 }
 .footer .footer-params {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: aqua;
+  color: rgb(0, 13, 255);
 }/*# sourceMappingURL=main.css.map */

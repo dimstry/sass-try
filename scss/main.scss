@@ -1,10 +1,11 @@
 // Variabel
 $myColor : rgb(255, 0, 187);
 $mySize : 2em;
-$myColor : rgb(255, 0, 187);
+$myBackground : rgb(67, 250, 0) ;
+$primaryColor : rgb(0, 13, 255);
 
 .main {
-    background-color: aqua;
+    background-color: $myBackground;
 
     .main-heading{
         font-size: $mySize;
@@ -55,6 +56,6 @@ $myColor : rgb(255, 0, 187);
 
     & &-params {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: aqua;
+        color: $primaryColor;
     }
 }
